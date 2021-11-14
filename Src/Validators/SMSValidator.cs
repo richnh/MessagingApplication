@@ -12,7 +12,7 @@ namespace EmailServerService.Validators
     {
         private ValidationResponseItem _validationResponseItem;
 
-        internal SMSValidator()
+        public SMSValidator()
         {
             _validationResponseItem = new ValidationResponseItem();
         }

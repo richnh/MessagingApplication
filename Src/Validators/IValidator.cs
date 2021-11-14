@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace EmailServerService.Validators
 {
-    internal interface IValidator<T>
+    public interface IValidator<T>
     {
         public ValidationResponseItem Valid(string recipient, T model);
 
