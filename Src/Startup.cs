@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using MimeKit;
+using System.Net.Mail;
 
 namespace EmailServerService
 {
@@ -40,6 +41,7 @@ namespace EmailServerService
                 .Get<EmailConfiguration>();
 
             services.AddScoped<IMessagingService<EmailMessage, MimeMessage>, EmailService>();
+            services.AddScoped<IMessagingService<SMSMessage, MailMessage>, SMSService>();
             services.AddScoped<IValidator<EmailMessage>, EmailValidator>();
             services.AddScoped<IValidator<SMSMessage>, SMSValidator>();
 
