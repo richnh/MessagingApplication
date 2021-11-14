@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagingService.Test", "Test\EmailServerService.Test\MessagingService.Test.csproj", "{FDDD011B-435C-420C-8047-F53009EFA0DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagingService", "Src\MessagingService.csproj", "{A1FC0437-9A4C-4517-B380-900E918425F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDDD011B-435C-420C-8047-F53009EFA0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDDD011B-435C-420C-8047-F53009EFA0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDDD011B-435C-420C-8047-F53009EFA0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDDD011B-435C-420C-8047-F53009EFA0DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1FC0437-9A4C-4517-B380-900E918425F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1FC0437-9A4C-4517-B380-900E918425F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1FC0437-9A4C-4517-B380-900E918425F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1FC0437-9A4C-4517-B380-900E918425F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {611CC174-9FD2-43B4-AFAF-2F5F61940B27}
+	EndGlobalSection
+EndGlobal

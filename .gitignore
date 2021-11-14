@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/EmailServerService
+/Src/.vs/EmailServerService
+/Src/bin/Debug/net5.0
+/Src/obj
+/Test/EmailServerService.Test/bin/Debug/netcoreapp3.1
+/Test/EmailServerService.Test/obj
+/.vs/MessageAppService/v16
+/Src/bin/Debug/netcoreapp3.1
